@@ -1,0 +1,23 @@
+[global_config]
+  handle_size = 1
+  focus = mouse
+[keybindings]
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    show_titlebar = False
+    background_darkness = 0.7
+    scrollback_lines = 2000
+    cursor_shape = underline
+    cursor_color = "#e5db1d"
+    foreground_color = "#e5db1d"
+    background_type = transparent
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
